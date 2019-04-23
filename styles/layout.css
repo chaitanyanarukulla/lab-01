@@ -1,0 +1,45 @@
+#a{
+  float: left;
+}
+#b{
+  float: left;
+  clear: both;
+
+}
+#c{
+  float: left;
+
+}
+#d{
+  float: left;
+ 
+}
+
+#e{
+  clear: both;
+  float: left;
+  }
+
+#f{
+  float: left;
+}
+
+#g{
+  float: left;
+}
+
+#h{
+  float:left;
+  clear: right;
+}
+
+#i{
+  float:left;
+ }
+
+.sec3{
+ float: left;
+}
+img{
+  padding:.5px;
+}
