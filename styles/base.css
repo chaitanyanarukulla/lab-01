@@ -12,12 +12,10 @@
   background-color: rgb(255, 0, 170);
   text-align: center;
   line-height: 600px;
-  display:inline-block;
   float: left;
   clear: both;
 }
 #c{
-  /* display: inline-block; */
   width: 380px;
   height: 200px;
   background-color: rgb(27, 2, 19);
@@ -26,35 +24,31 @@
   float: left;
 }
 #d{
-  /* display: inline-block; */
   width: 380px;
   height: 200px;
   background-color: rgb(142, 196, 16);
   text-align: center;
   line-height: 200px;
   float: left;
- 
 }
-
-#e{
- 
+#e {
+  background-color: rgb(553, 26, 102);
+  clear: none;
   float: left; 
   display:block;
   width: 190px;
   height: 250px;
-  background-color: rgb(553, 26, 102);
   text-align: center;
   line-height: 250px;
-  
-}
+  }
 #f{
+  float: left; 
   display:block;
   width: 190px;
   height: 250px;
   background-color: rgb(55, 26, 102);
   text-align: center;
   line-height: 250px;
-  float: left; 
 }
 #g{
   display: inline-block;
@@ -63,7 +57,7 @@
   background-color: rgb(41, 58, 2);
   text-align: center;
   line-height: 250px;
-  float: left;
+  clear: none;
 }
 #h{
   display: inline-block;
@@ -72,7 +66,6 @@
   background-color: rgb(49, 2, 8);
   text-align: center;
   line-height: 250px;
-
 }
 #i{
   display: inline-block;
