@@ -1,75 +1,178 @@
 
-#a{
-  max-width: 480px;
-  height: 75px;
-  background-color: red;
-  text-align: center;
-  line-height: 75px;
-  
+.dt {
+display: none;
 }
-#b{
-  max-width: 480px;
-  height: 150px;
-  background-color: rgb(255, 0, 170);
-  text-align: center;
-  line-height: 150px;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
 }
-#c{
-  max-width: 480px;
-  height: 125px;
-  background-color: rgb(61, 42, 55);
-  text-align: center;
-  line-height: 125px;
+.boxa,.boxb,.boxc,.boxd,.boxe,.boxf,.boxg,.boxh,.boxi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-#d{
-  width: 480px;
-  height: 125px;
-  background-color: rgb(61, 142, 55);
-  text-align: center;
-  float: left;
-  line-height: 125px;
+.boxa {
+  background: rgb(54, 2, 2);
+  grid-column-start: 1; 
+  grid-column-end: 3;
+  grid-row-start: 1 ;
+  grid-row-end: 2;
+
 }
-#e{
-  width: 240px;
+
+.boxb {
+  background: rgb(58, 35, 35);
+  grid-column-start: 1; 
+  grid-column-end: 3;
+  grid-row-start: 2 ;
+  grid-row-end: 3;
+}
+
+ .boxc {
+  background: rgba(41, 1, 1, 0.877);
+  grid-column-start: 1; 
+  grid-column-end: 3;
+  grid-row-start: 3 ;
+  grid-row-end: 4;
+}
+
+.boxd {
+  background: rgb(138, 2, 2);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4 ;
+  grid-row-end: 5;
+}
+
+.boxe {
+  background: rgb(241, 37, 37);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5 ;
+  grid-row-end: 6;
+}
+
+.boxf {
+  background: rgb(109, 27, 27);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5 ;
+  grid-row-end: 6;
+}
+
+.boxg {
+  background: rgb(221, 100, 100);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6 ;
+  grid-row-end: 7;
+}
+
+.boxh {
+  background: rgb(56, 23, 23);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6 ;
+  grid-row-end: 7;
+}
+
+.boxi {
+  background: rgb(223, 125, 125);
+  grid-column-start: 1; 
+  grid-column-end: 3;
+  grid-row-start: 7 ;
+  grid-row-end: 8;
+}
+
+@media screen and (min-width: 768px) {
+
+body {
+  margin: 20px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 190px 190px 190px 190px;
+  grid-template-rows: 100px 200px 250px 150px;
+}
+
+.boxa {
+  background: rgb(73, 45, 231);
+  grid-column-start: 1; 
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.boxb {
+  background: rgb(13, 6, 107);
+  grid-column-start: 1; 
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.boxc {
+  background: rgb(57, 51, 83);
+  grid-column-start: 2; 
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.boxd {
+  background: rgb(17, 2, 71);
+  grid-column-start: 4; 
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+ .boxe {
+  background: rgba(38, 11, 158, 0.582);
+  grid-column-start: 2; 
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.boxf {
+  background: rgb(154, 140, 214);
   height: 250px;
-  background-color: rgb(61, 442, 55);
-  text-align: center;
-  float: left;
-  line-height: 250px;
-  clear: both;
-  
+  width: 190px;
+  grid-column-start: 3; 
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
-#f{
-  width: 240px;
+
+.boxg {
+  background: rgb(54, 41, 230);
   height: 250px;
-  background-color: rgb(91, 442, 255);
-  text-align: center;
-  float: left;
-  line-height: 250px;
+  width: 190px;
+  grid-column-start: 4; 
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
-#g{
-  width: 240px;
-  height: 250px;
-  background-color: rgb(61, 42, 155);
-  text-align: center;
-  float: left;
-  line-height: 250px;
-  clear: both;
-  
+
+.boxh {
+  background: rgb(2, 59, 245);
+  grid-column-start: 5; 
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
-#h{
-  width: 240px;
-  height: 250px;
-  background-color: rgb(9, 44, 25);
-  text-align: center;
-  float: left;
-  line-height: 250px;
-}
-#i{
-  width: 480px;
-  height: 80px;
-  background-color: rgb(162, 194, 18);
-  text-align: center;
-  float: left;
-  line-height: 80px;
+
+.boxi {
+  background: rgb(138, 9, 9);
+  grid-column-start: 2; 
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+} 
 }
